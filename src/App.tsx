@@ -58,7 +58,7 @@ const App: React.FC = () => {
   };
 
   const nextQuestion = () => {
-    // Move on to the next question if not the last question
+
     const nextQ = number + 1;
 
     if (nextQ === TOTAL_QUESTIONS) {
